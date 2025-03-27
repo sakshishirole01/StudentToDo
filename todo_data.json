@@ -1,0 +1,53 @@
+{
+    "Maths": {
+        "ongoing": [
+            "test test",
+            "do trigno",
+            "hi"
+        ],
+        "completed": [
+            "Completed Task A",
+            "Practice",
+            "new task",
+            "Exercise 1"
+        ]
+    },
+    "CS": {
+        "ongoing": [
+            "hi",
+            "create website"
+        ],
+        "completed": [
+            "Debug code"
+        ]
+    },
+    "Science": {
+        "ongoing": [],
+        "completed": [
+            "learn"
+        ]
+    },
+    "English": {
+        "ongoing": [
+            "Practice",
+            "play"
+        ],
+        "completed": [
+            "speak"
+        ]
+    },
+    "History": {
+        "ongoing": [
+            "sleep for 4 hours"
+        ],
+        "completed": []
+    },
+    "Timepass": {
+        "ongoing": [],
+        "completed": []
+    },
+    "German": {
+        "ongoing": [],
+        "completed": []
+    }
+}
