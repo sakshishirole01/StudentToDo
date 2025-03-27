@@ -1,0 +1,26 @@
+/* Hover effect for ongoing tasks */
+.task-button:hover {
+    background: #f0e6d2; /* Light brown/yellow shade */
+    transform: scale(1.05); /* Slightly bigger */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Light shadow */
+}
+
+/* Hover effect for completed tasks */
+.completed-task-button:hover {
+    background: #c4eac4; /* Slightly darker green */
+    transform: scale(1.05); /* Slightly bigger */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Light shadow */
+}
+
+/* Navbar Button Hover Effect */
+.navbar-button:hover {
+    background: #5a9bd4; /* Slightly darker blue */
+    color: black; /* White text */
+    transform: scale(1.05); /* Slightly bigger */
+    box-shadow: 2px 2px 2cap rgba(0, 0, 0, 0.3); /* Light shadow */
+}
+
+#completed-task-popup {
+    z-index: 1000; /* Ensure it appears above everything */
+}
+

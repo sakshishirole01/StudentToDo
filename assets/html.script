@@ -1,0 +1,11 @@
+<script>
+    function storeRightClick(event, subject) {
+        event.preventDefault();  // Prevent default right-click menu
+
+        var mousePos = { x: event.clientX, y: event.clientY, subject: subject };
+        var dashStore = document.getElementById('right-click-data');
+        if (dashStore) {
+            dashStore.setAttribute('data', JSON.stringify(mousePos));
+        }
+    }
+</script>
